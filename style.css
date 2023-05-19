@@ -1,0 +1,132 @@
+body {
+    font-family: inter light;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    justify-content: space-between;
+    height: 80px;
+    background-color: orangered;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+.logo img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logo img {
+    margin-left: 40px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: inter bold;
+    font-weight: bold;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+nav li a.active {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: inter bold;
+}
+
+h2 {
+    font-family: inter bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: orangered;
+    color: yellow;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    footer: 5px;
+}
+
+.contact-info img {
+    width: 5px;
+    margin-right: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #6492e9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
